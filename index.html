@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script language="Javascript">
+            function volume()
+            {
+                var a;
+             a=4/3*3.14*parseInt(f1.t1.value)*parseInt(f1.t1.value)*parseInt(f1.t1.value);
+             f1.t2.value=+a
+            }
+        </script>
+    </head>
+    <body>
+    <font color="Purple">
+        <h1>Formula </h1>
+        <font color="Black"><h3>Sphere</h3></font>
+    </font>
+    
+    Area = 4/3 x π x r<sup>3</sup> <br />
+    <font color="purple"><h1>Variables</h1></font>
+    <form name="f1">
+        Radius&nbsp;&nbsp;<input type="text" name="t1"><br><br>
+    <font color="purple"><h1>Calculations</h1></font>
+        <input type="text" name="t2"><br><br />
+        <input type="button" value="Volume" onClick="volume()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+        
+    </form>
+    
+    
+        
+    </body>
+</html>
